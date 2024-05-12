@@ -1,0 +1,16 @@
+{
+    "name": "server-app",
+    "version": "1.0.0",
+    "description": "Prosty serwer HTTP z funkcjonalnością wyświetlania adresu IP klienta i daty w jego strefie czasowej",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "echo \"********\""
+    },
+    "author": "Jakub Smyrski",
+    "license": "MIT",
+    "dependencies": {
+      "http": "*",
+      "execa": "9.0.2"
+    }
+}
